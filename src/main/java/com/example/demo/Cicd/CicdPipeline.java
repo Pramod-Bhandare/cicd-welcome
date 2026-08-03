@@ -9,7 +9,7 @@ public class CicdPipeline {
 	
 	@GetMapping("/")
 	public String CicdAction() {
-		return "CICD Pipeline Application is running!";
+		return "CI/CD Application is Running!!!!";
 	}
 	
 	@GetMapping("/welcome")
