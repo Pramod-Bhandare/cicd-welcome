@@ -11,4 +11,11 @@ public class CicdPipeline {
 	public String CicdAction() {
 		return "CICD Pipeline Application is running!";
 	}
+	
+	@GetMapping("/welcome")
+	public String CicdAction1() {
+		return "Some thing changed in project with the help of permission of owner!";
+	}
+	
+	
 }
