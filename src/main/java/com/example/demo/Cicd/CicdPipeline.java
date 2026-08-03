@@ -17,5 +17,10 @@ public class CicdPipeline {
 		return "Some thing changed in project with the help of permission of owner!";
 	}
 	
+	@GetMapping("/welcome1")
+	public String CicdAction2() {
+		return "This is to checking prepose Second Get API , Just I am Trying !!";
+	}
+	
 	
 }
