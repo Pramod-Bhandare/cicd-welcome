@@ -22,5 +22,10 @@ public class CicdPipeline {
 		return "This is to checking prepose Second Get API , Just I am Trying !!";
 	}
 	
+	@GetMapping("/welcome2")
+	public String CicdAction3() {
+		return "Annother try !!!";
+	}
+	
 	
 }
