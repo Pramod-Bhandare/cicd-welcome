@@ -27,5 +27,12 @@ public class CicdPipeline {
 		return "Annother try !!!";
 	}
 	
+	@GetMapping("/welcome3")
+	public String CicdAction4() {
+		return "welcome api !!!";
+	}
+	
+	
+	
 	
 }
